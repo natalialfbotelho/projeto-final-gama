@@ -108,4 +108,17 @@ public class ListaAccentureTestSteps {
 		
 		string = null;				
 	}
+	
+	@Dado("clico no item do menu cloud")
+	public void clicarNoItemDoMenuCloud() throws InterruptedException {
+		Thread.sleep(5000);
+        Config.cssSelector("a[href='/br-pt/services/cloud-index']").click();      
+	}
+
+	@Entao("devo encontrar o titulo {string}")
+	public void encontrarOTitulo(String string) {
+		String textoElement = Config.cssSelector("h1[class='rte-inline col-xs-12 page-title ']").getText();
+		assertEquals("Serviços de Cloud", textoElement);
+		Config.fecharPagina();
+	}
 }

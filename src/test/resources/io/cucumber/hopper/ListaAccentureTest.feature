@@ -27,3 +27,10 @@ Funcionalidade: listar servicos da Accenture
 	    E devo ver o servico "Technology Consulting"
 	    E devo ver o servico "Technology Innovation"
 	    E devo ver o servico "Zero Based Budgeting (ZBB)"
+	  
+	  Cenario: Clicar no servico cloud
+			Dado que eu estou no site da accenture
+			E clico no menu servicos
+			E clico no item do menu cloud
+			Entao devo encontrar o titulo "Serviços de Cloud" 
+	   

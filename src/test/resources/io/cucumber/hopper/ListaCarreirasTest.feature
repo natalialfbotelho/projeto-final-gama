@@ -1,4 +1,5 @@
 # language: pt
+
 Funcionalidade: Acessar o item de vagas de tecnologia
   O objetivo é acessar o site da accenture no menu carreiras, e testar menu e campo de busca
     
