@@ -44,8 +44,4 @@ public static WebDriver browser;
 		return browser.findElement(By.id(id));
 	}
 	
-	public static WebElement byClassName (String className) {
-		return browser.findElement(By.className(className));
-	}
-
 }
