@@ -10,8 +10,7 @@ Funcionalidade: Acessar o site da Accenture
 
   
         Cenario: Configurações do cookie
-            Dado que eu estou no site da accenture
-              #E aceito os termos LGPD
+            Dado que eu estou no site da accenture              
               E clico em configuracoes de cookie
              Entao devo ver o item de "Sua privacidade"
               E devo ver "Cookies estritamente necessárias"
