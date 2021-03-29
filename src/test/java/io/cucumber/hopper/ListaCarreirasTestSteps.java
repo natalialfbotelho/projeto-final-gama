@@ -16,7 +16,7 @@ public class ListaCarreirasTestSteps{
 	@Dado("clico no item do menu vagas em tecnologia")
 	public void clicarNoItemVagasEmTecnologia() throws InterruptedException {
 		Thread.sleep(3000);
-	    Config.linkText("Vagas em tecnologia").click();
+		Config.cssSelector("[aria-label='Vagas em tecnologia']").click();
 	}
 
 	@Entao("devo ver o destaque {string}")
